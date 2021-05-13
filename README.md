@@ -1,2 +1,10 @@
 # crud-fe-app
-Created with CodeSandbox
+
+Design & Tecnologies used:
+
+React JS
+React Material UI 
+Responsive
+GraphQL Client Side
+Bootstrap
+
