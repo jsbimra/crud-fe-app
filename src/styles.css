@@ -1,0 +1,107 @@
+body {
+  font-family: "Lato", cursive;
+  background: url("https://media-public.canva.com/MADQ5pw7MLI/1/screen_2x.jpg")
+    0 0 no-repeat;
+  background-size: cover;
+  overflow-y: auto !important;
+}
+
+.App {
+  font-weight: 400;
+  text-align: center;
+  width: calc(100vw / 1.5);
+  margin: 0 auto;
+  padding: 1.3rem;
+  border-radius: 4px;
+  min-height: 450px;
+  text-shadow: none;
+}
+
+/* Color styling */
+.App,
+.App h1 a,
+a,
+label,
+.MuiChip-root.MuiChip-outlined {
+  /* color: #000; */
+  text-shadow: none;
+  color: rgba(0, 0, 0, 0.48);
+}
+
+.App h1 a {
+  text-shadow: none;
+  color: rgb(167, 167, 167);
+}
+
+h2 {
+  text-shadow: none;
+  color: rgba(0, 0, 0, 0.48);
+}
+
+.App h1 a:hover {
+  text-decoration: none;
+}
+
+.logo {
+  margin-bottom: 0.5rem;
+}
+
+.sidebar-nav {
+  width: 30%;
+  background: #fff;
+  margin-right: 10px;
+  border-radius: 1% 1%;
+}
+.sidebar-nav ul {
+  width: 100%;
+}
+
+.sidebar-nav .list-item {
+  width: 100%;
+  padding: 0;
+  display: block;
+}
+.sidebar-nav .list-item a {
+  display: block;
+  padding: 8px 16px;
+}
+.sidebar-nav .list-item a.active {
+  background: rgb(167, 167, 167);
+  color: #fff;
+}
+.sidebar-nav a {
+  color: rgba(0, 0, 0, 0.84);
+}
+
+.content-wrapper {
+  background: #fff;
+  padding: 1.7rem 0.4rem;
+  color: rgba(0, 0, 0, 0.84);
+  border-radius: 1% 1%;
+  width: 100%;
+}
+
+.content-wrapper h3 {
+  font-size: 1.4rem;
+  margin-top: 0.3rem;
+  margin-bottom: 0.3rem;
+}
+
+.footer {
+  font-size: 0.8rem;
+  color: #fbfdfe;
+}
+
+.btn-back {
+  color: #fbfdfe;
+}
+
+.content-wrapper .btn-back {
+  color: rgba(0, 0, 0, 1);
+}
+
+@media (max-width: 640px) {
+  .App {
+    width: 90%;
+  }
+}
