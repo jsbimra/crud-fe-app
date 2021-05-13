@@ -6,4 +6,3 @@
 #### Responsive
 #### GraphQL Client Side
 #### Bootstrap
-
